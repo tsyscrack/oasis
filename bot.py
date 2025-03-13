@@ -396,7 +396,7 @@ class OasisAI:
                 self.log(f"{Fore.RED}No Accounts Loaded.{Style.RESET_ALL}")
                 return
 
-            use_proxy_choice = self.print_question()
+            use_proxy_choice = 2
 
             use_proxy = False
             if use_proxy_choice in [1, 2]:
